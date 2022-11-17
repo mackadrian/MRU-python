@@ -1,0 +1,151 @@
+Assignment One: 
+Name(s)  ___Mack Bautista___          ___Soona Youssef___
+Email: syous547@mtroyal.ca
+
+Responses:
+
+
+Q1:Algorithm tracing & purpose
+a)Number		Small		Large
+   4			4		4
+   6			-		6	
+   11			-		11
+   3			3		-		
+   -2			-		-
+Explanation:
+Ask user for an input which is a number.
+Give small a variable for a number.
+Give large a variable for a number.
+User inputs with the given value of 4. Small, and large is set to 4.
+User provides 6 as the next number. Large is set to 6.
+User provides 11 as the next number. Large is set to 11.
+User provies 3 as the next number. Small is set to 3.
+User provides -2 as the next number. It is not a satisfied condition as we are only asking for a positive number.
+There is no set number given to small and large because it is a negative number.
+Calculate large-small, therefore 11-3 is equal to 8.
+Print the value 8.
+The algorithm stops.
+
+
+
+b)The purpose of the entire algorithm is to find the difference betwen the most recent largestt and smallest values within the dataset after the loop ends.
+
+
+Q2: Designing & expressing a LEGO algorithm
+
+
+You are given pieces of legos at hand.
+There are an abundant of 2 by 2 lego pieces of each different colour.
+There are beige, red, yellow, white, blue, and green.
+There are an abundant of 2 by 1 lego pieces of pink colour.
+You are given one 16 by 16 grey baseplate.
+Start off with the first level of the pyramid.
+For the first level of the pyramid use 2 by 2 beige-coloured pieces.
+It should take 64 pieces to fill up the first level.
+There should be no holes.
+For each level of the pyramid, leave one space or stud from the peremeter.
+For the second level of the pyramid use 2 by 2 red-coloured pieces.
+It should take 49 pieces to fill up the second level.
+For the third level of the pyramid use 2 by 2 yellow-coloured pieces.
+It should take 36 pieces to fill up the third level.
+For the fourth level of the pyramid use 2 by 2 white-coloured pieces.
+It should take 25 pieces to fill up the fourth level.
+For the fifth level of the pyramid use 2 by 2 blue-coloured pieces.
+It should take 16 pieces to fill up the fifth level.
+For the sixth level of the pyramid use 2 by 2 green-coloured pieces.
+It should take 9 pieces to fill up the sixth level.
+For the seventh and final level of the pyramid use 2 by 1 pink-coloured pieces.
+Using 6 pieces of the 2 by 1 pieces, leave one space or one stud from the peremeter.
+Form a 2 by 2 gap by surrounding it with the 2 by 1 pink pieces.
+You are finished!
+
+
+Q2(Bonus):
+
+(To be finished)
+
+References:
+bricklink. Baseplate 16 X 16. https://www.bricklink.com/v2/catalog/catalogitem.page?P=3867#T=C
+
+Brick Owl. LEGO Brick 2 x 2 (3003 / 6223). https://www.brickowl.com/catalog/lego-brick-2-x-2-3003-6223
+
+Brick Owl. LEGO Brick 1 x 2 (3004 / 93792). https://www.brickowl.com/catalog/lego-brick-1-x-2-3004-93792
+
+
+Calculate the volume of the pyramid in cubic millimetres including the baseplate.
+A 2 by 2 lego piece is 1.6cm x 1.6cm x 1.2cm
+Convert centimetres to millimetres.
+Therefore a 2 by 2 lego piece's dimensions are now 16mm x 16mm x 12mm.
+A 2 by 1 by is 0.8cm by 1.6cm x 1.2cm. 
+Convert centimetres to millimetres.
+Therefore a 2 by 1 lego piece is now 8mm x 16mm x 12mm.
+A 16 by 16 baseplate is 12.8 cm x 0.3 cm x 12.8cm.
+Convert centimetres to millimetres.
+Therefore a 16 by 16 baseplate is 128mm by 3mm by 128mm.
+
+Volume of a 2 by 2 lego piece is calculated by multiplying dimensions.
+Multiply 16mm * 16mm * 12mm.
+Volume of a 2 by 2 lego piece is now 3072mm cubed.
+Repeat process for finding volume of a 2 by 1 lego piece and a 16 by 16 baseplate.
+Volume of a 2 by 1 lego piece is now 1536mm cubed.
+Volume of a 16 by 16 baseplate is now  49,152mm cubed.
+
+If the first level of the pyramid takes 64 pieces of a 2 by 2 to complete.
+You multiply 3072mm cubed * 64 pieces.
+Volume of the first level is now 196,608mm cubed.
+For the second level, because each level is a perfect square. We just move down from the list of perfect squares.
+The second level now requires 47 of the 2 by 2 pieces to fill.
+Therefore repeat the multiplication process again.
+The second level's volume is now 150,528mm cubed.
+Repeat the same process of going down the perfect square and multiplying.
+Do the same process until you reach the sixth level.
+
+
+
+Q3: Designing & expressing your OWN algorithm.
+
+
+How to make bubble tea.
+The ingredients you need 2 bags of black tea 
+2 Bags of black tea per one drink
+3/4 cups of powdered tapioca pearls
+Your choice of milk
+Your choice of sweetener
+1/2 cup of brown sugar
+1/2 cup of water
+
+Begin with creating your own tapioca pearls.
+In a small-sized saucepan on a medium heat setting, add your 1/2 cup of water and 1/2 cup of brown sugar.
+Keep the mixture in until it is slowly boiling.
+Once it is boiling turn the heat to low.
+Add less than 3/4 cups of powdered tapioca pearls.
+You will add the remaining cups later.
+Mix it between 5-8 minutes and then turn the heat off.
+Add the rest of the powdered tapioca pearls and mix.
+Once it is doughlike consistency pour it into a flat surface.
+Roll it and knead into a smooth dough.
+Be quick with separating into portions.
+As the dough cools it will firm up.
+Take one of the cut portion and roll thinly.
+You will cut them into small pieces and roll them into a ball.
+Once forming plenty of tapioca balls.
+Add them into a bowl and coat more with tapioca powder.
+In a sive, shake the excess tapioca powder and make sure the balls are covered in white powder.
+Freeze them until ready to make your drink.
+
+Once you are ready to make the drink.
+In a small-sized saucepan, add water.
+Wait until the water begins to boil.
+Begin to add your tapioca pearls in the saucepan.
+Wait until the pearl is translucent.
+Once the pearl is translucent, turn off the heat.
+Add brown sugar to create a syrup-like consistency.
+To assemble the drinks.
+Prepare 2 bags of black tea in a mug.
+Add boiling water to the mug, 1/4 to 1/2 of the mug and brew the tea.
+You need space to add milk and your brown sugar.
+Wait for a couple of minutes depending on how strong you want the tea is.
+Add your own choice of milk and sweetener to your own taste.
+Finally, add your tapioca pearls in the brown sugar syrup to the drink.
+Do not forget to add ice cubes as well for a refreshing cold drink.
+Serve and enjoy!
