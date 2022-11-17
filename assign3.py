@@ -44,10 +44,10 @@ def get_switch_value(switch_name: str) -> bool:
     Prompts the user for the state of the specified switch.
     Returns true if the specified switch is enabled and false otherwise.
     """
-    user_input = switch_name
-    user_input = str(input(f"Is switch {switch_name} enabled? (y/n): ").lower())
     
-    if user_input == 'y':
+    (input(f"Is switch {switch_name} enabled? (y/n): ").lower())
+    
+    if switch_name == 'y':
         return True
     else:
         return False
