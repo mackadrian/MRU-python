@@ -1,0 +1,107 @@
+-Name(s):		Mack Bautista (201729981)
+
+1. Starting location coordinates (decimal degrees): 
+	First location which will be constant.
+	(latitude , longtitude)
+	Homage Statue	(51.013760 , 114.133691)
+
+
+Ending location coordinates (decimal degrees): 
+	Create input to pick any location in Alberta.
+	(latitude , longtitude)
+	Chinook Mall	(50.99854 , 114.07356)	# Location coordinates from Google Maps
+
+
+2. Calculations:
+
+	# Latitude and longtitude coordinates must be a positive float value.
+
+Use Haversine Forumlae to find distance between two locations:
+	First location latitude -- lat₁ is 51.1013760
+	First location longtitude --- long₁ is 114.133691
+		Second location latitude -- lat₂ is 50.99854 # User input
+		Second location longtitude -- long₂ is 114.07356 # User input
+
+Convert decimal degrees to radians
+	Convert using 1 degree = pi / 180
+	Radians of lat₁ = 51.013760 * ( pi / 180)
+			    = 0.8918872634996099
+	Radians of long₁ = 114.133691 * ( pi / 180)
+			     = 1.9920086954038194
+		Radians of lat₂ = 50.99854 * ( pi / 180)
+				    = 0.8900924367100289
+		Radians of long₂ = 114.07356 * ( pi / 180)
+				     = 1.9909592114713026
+
+Use Haversine Forumlae to find distance between two locations:
+Find "a" 
+	"a" = 1.2666450422839087	# Calculating changes in both latitudes and longtitudes
+Find "c"
+	c = 0.0007117991558757478	# Calculated using the atan2 equation
+Find "R"
+	R = (1 / 3) * (2 * 6,378,137 + 6,356,752)	
+	  = 6371008.666666666m		# Value is constant and is in metres
+
+Calculate "distance" using "c" and "R"
+	dist = R * c
+	     = 4534.878591010406m
+	Must convert metres to the tenth of kilometres.
+	dist = 4534.878591010406m / 1000km
+	     = 4.5km
+
+D/M/S Conversion
+	Homage Statue	(51.013760 , 114.133691) in decimal degrees
+	Latitude: 
+		Degree = 51°	# Keep as integer
+
+		Minutes = 0.13760 * 60
+			  = 0.8256	# Keep as integer
+			  = 0'
+
+		Seconds = 0.8256 * 60
+			  = 49.536"	# Round to the nearest hundreth
+			  = 49.54" 
+	Longtitude:
+		Degree = 114°	# Keep as integer
+		Minutes = 0.133691 * 60
+			  = 8.02146	# Keep as integer
+			  = 8'
+
+		Seconds = 0.02146 * 60
+			  = 1.2876"	# Round to the nearest hundreth
+			  = 1.29" 
+	Homage State	51° 0' 49.54" , 114° 8' 1.29" 
+	
+	Chinook Mall	(50.99854 , 114.07356)	# Location coordinates from Google Maps
+	Latitude: 
+		Degree = 50°	# Keep as integer
+
+		Minutes = 0.99854 * 60
+			  = 59.9124	# Keep as integer
+			  = 59'
+
+		Seconds = 0.9124 * 60
+			  = 54.744"	# Round to the nearest hundreth
+			  = 54.74" 
+	Longtitude:
+		Degree = 114°	# Keep as integer
+		Minutes = 0.07356 * 60
+			  = 4.4136	# Keep as integer
+			  = 4'
+		Seconds = 0.4136 * 60
+			  = 24.816"	# Round to the nearest hundreth
+			  = 24.82" 
+	Chinook Mall	50° 59' 54.74" , 114° 4.' 24.82" 
+
+
+3. Solution statement:
+
+The Homage Statue is located at ( 51.013760, 114.133691) or 51° 0' 49.54" N, 114° 8' 1.29" W. 
+Chinook Mall at (50.99854 , 114.07356) or 50° 59' 54.74" N , 114° 4' 24.82" W. 
+The distance between the Homage Statue and Chinook Mall is 4.5 km.
+
+4. Citations:
+    [1] "Decimal Degrees to Degrees Minutes Seconds", Calculator Soup. Accessed Oct 5, 2022. Available: https://www.calculatorsoup.com/calculators/conversions/convert-decimal-degrees-to-degrees-minutes-seconds.php
+    [2] Google Maps. [Screen Capture]. Oct 5, 2022.
+    [3] "Unicode", Wikipedia: The Free Encyclopedia, [Edited  3 October 2022] Available https://en.wikipedia.org/wiki/Unicode
+    [4] "Calculate distance, bearing and more between Latitude/Longitude points", Movable Type Scripts. Accessed Oct 5, 2022. Available: https://www.movable-type.co.uk/scripts/latlong.html
