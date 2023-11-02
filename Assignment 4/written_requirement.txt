@@ -1,0 +1,28 @@
+Assignment 4 Written Requirement Response
+
+Student Name(s): Mack Bautista (201729981) / Soona Youssef(201708547)
+
+
+1. 
+
+The two challenges that the format of the building file presented are: it was difficult 
+to process the building if it was only read once, and how to format the building in a way
+it can be used to calculate the score of the dice. Just using the .read() method was not enough.
+When we used an echo print, we saw that it only printed by line. To get the elements in
+the lines we needed to find a way to split it again so we can get the element in the array.
+We used the indices and used that to create our list of lists. 
+This made the calculations a little less tedious to do.
+
+2. 
+
+An alternative file format that would not pose the challenges provided is a CSV file. If we were to 
+use a CSV or comma-seperated values file, we could import the CSV module from the Python library.
+This would give us access to methods that can only be used when importing the CSV module.
+Formatting would be much more cleaner, and will use less lines.
+
+3.
+
+A different challenge that a CSV file format would pose is it can not handle complex data very well.
+To make matters more tedious, if we only want the output as a .txt file format, we would have to
+translate it from CSV to .TXT and vice versa.
+
