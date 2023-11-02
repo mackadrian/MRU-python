@@ -1,2 +1,2 @@
 # MRU-assignments
-These are MRU assignments programming assignments that I created.
+These are the MRU assignments programming assignments that I created during FALL Semester 2022.
